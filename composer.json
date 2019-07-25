@@ -1,0 +1,29 @@
+{
+    "name": "abdala/readonly",
+    "type": "library",
+    "license": "LGPLv3",
+    "authors": [
+        {
+            "name": "Abdala Cerqueira",
+            "email": "abdala.cerqueira@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.2",
+        "doctrine/coding-standard": "^6.0",
+        "phpstan/phpstan": "^0.11.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Abdala\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\Abdala\\": "tests/"
+        }
+    }
+}
